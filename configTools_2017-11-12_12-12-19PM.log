@@ -1,0 +1,315 @@
+[ Start ] MTS
+Command: [C:\Windows\system32\cmd.exe /c call F:\app\Grigoris\OraHome_1\bin\oramtsctl.exe -new -internal ]
+Service is being created.
+Service creation failed.
+WSE-00008: Unsupported Oracle home type.
+
+
+
+Cause : This error should be treated as an internal error.
+
+
+
+Action : Contact Oracle Support Services.
+
+
+OUI internal: error occurred on localhost
+[ Exit Code ] 2
+[ End ] MTS
+
+[ Start ] MTS
+Command: [C:\Windows\system32\cmd.exe /c call F:\app\Grigoris\OraHome_1\bin\oramtsctl.exe -new -internal -new -internal ]
+OracleMTSRecoveryService Control Utility: Version 12.1.0.0.0 - Production
+
+Copyright (c) 2012, Oracle.  All rights reserved.
+
+Usage:
+
+oramtsctl <-new|-delete|-start|-stop|-status|-config|-passwd|-trace|-trcdir>
+          [-host    <hostname|IP_address> ...]
+          [-port    <number>]
+          [-ip      <IP_address>]
+          [-dtchost <DTC_hostname>]
+          [-cluster <on|off>]
+          [-default]
+
+ -new    Create and start a new OracleOraHome1MTSRecoveryService service.
+
+ -delete [Oracle_home_directory]
+         Delete OracleMTSRecoveryService of current home or specified home.
+
+ -start  Start OracleOraHome1MTSRecoveryService service.
+
+ -stop   Stop OracleOraHome1MTSRecoveryService service.
+
+ -status Query OracleOraHome1MTSRecoveryService service status.
+
+ -config [-port <number>] [-ip <IP_address>] [-dtchost <DTC_hostname>]
+         [-cluster <on|off>] [-default]
+         Show or set OracleOraHome1MTSRecoveryService service configuration.
+         Use -default to reset OracleOraHome1MTSRecoveryService configuration.
+
+ -passwd Update OracleOraHome1MTSRecoveryService service user password.
+
+ -trace  [0-5]
+         Show traces or set trace level. Set level 0 to turn off tracing.
+
+ -trcdir [trace_directory]
+         Show or set trace directory.
+
+ -host   <hostname|IP_address> ...
+         Execute operation on host(s) identified by name(s) or IP address(es).
+         Local host is used if option not specified.
+
+ -port   <number>
+         Execute -new or -config with this option to specify a service port.
+         Service port is configured automatically if option not specified.
+
+ -ip     <IP_address>
+         Execute -new or -config with this option to specify an IP address.
+
+ -default
+         Execute -new or -config with this option to set default configuration.
+
+Examples:
+
+Install the service with automatic configuration:
+oramtsctl -new
+
+Install the service on port 2032:
+oramtsctl -new -port 2032
+
+Configure the service to use port 2033:
+oramtsctl -config -port 2033
+
+Update the service user password:
+oramtsctl -passwd
+
+Install the service on several hosts and use uniform port 2033:
+oramtsctl -new -host host1 host2.domain.com host3 -port 2033
+
+[ Exit Code ] 1
+[ End ] MTS
+
+[ Start ] MTS
+Command: [C:\Windows\system32\cmd.exe /c call F:\app\Grigoris\OraHome_1\bin\oramtsctl.exe -new -internal -new -internal -new -internal ]
+OracleMTSRecoveryService Control Utility: Version 12.1.0.0.0 - Production
+
+Copyright (c) 2012, Oracle.  All rights reserved.
+
+Usage:
+
+oramtsctl <-new|-delete|-start|-stop|-status|-config|-passwd|-trace|-trcdir>
+          [-host    <hostname|IP_address> ...]
+          [-port    <number>]
+          [-ip      <IP_address>]
+          [-dtchost <DTC_hostname>]
+          [-cluster <on|off>]
+          [-default]
+
+ -new    Create and start a new OracleOraHome1MTSRecoveryService service.
+
+ -delete [Oracle_home_directory]
+         Delete OracleMTSRecoveryService of current home or specified home.
+
+ -start  Start OracleOraHome1MTSRecoveryService service.
+
+ -stop   Stop OracleOraHome1MTSRecoveryService service.
+
+ -status Query OracleOraHome1MTSRecoveryService service status.
+
+ -config [-port <number>] [-ip <IP_address>] [-dtchost <DTC_hostname>]
+         [-cluster <on|off>] [-default]
+         Show or set OracleOraHome1MTSRecoveryService service configuration.
+         Use -default to reset OracleOraHome1MTSRecoveryService configuration.
+
+ -passwd Update OracleOraHome1MTSRecoveryService service user password.
+
+ -trace  [0-5]
+         Show traces or set trace level. Set level 0 to turn off tracing.
+
+ -trcdir [trace_directory]
+         Show or set trace directory.
+
+ -host   <hostname|IP_address> ...
+         Execute operation on host(s) identified by name(s) or IP address(es).
+         Local host is used if option not specified.
+
+ -port   <number>
+         Execute -new or -config with this option to specify a service port.
+         Service port is configured automatically if option not specified.
+
+ -ip     <IP_address>
+         Execute -new or -config with this option to specify an IP address.
+
+ -default
+         Execute -new or -config with this option to set default configuration.
+
+Examples:
+
+Install the service with automatic configuration:
+oramtsctl -new
+
+Install the service on port 2032:
+oramtsctl -new -port 2032
+
+Configure the service to use port 2033:
+oramtsctl -config -port 2033
+
+Update the service user password:
+oramtsctl -passwd
+
+Install the service on several hosts and use uniform port 2033:
+oramtsctl -new -host host1 host2.domain.com host3 -port 2033
+
+[ Exit Code ] 1
+[ End ] MTS
+
+[ Start ] MTS
+Command: [C:\Windows\system32\cmd.exe /c call F:\app\Grigoris\OraHome_1\bin\oramtsctl.exe -new -internal -new -internal -new -internal -new -internal ]
+OracleMTSRecoveryService Control Utility: Version 12.1.0.0.0 - Production
+
+Copyright (c) 2012, Oracle.  All rights reserved.
+
+Usage:
+
+oramtsctl <-new|-delete|-start|-stop|-status|-config|-passwd|-trace|-trcdir>
+          [-host    <hostname|IP_address> ...]
+          [-port    <number>]
+          [-ip      <IP_address>]
+          [-dtchost <DTC_hostname>]
+          [-cluster <on|off>]
+          [-default]
+
+ -new    Create and start a new OracleOraHome1MTSRecoveryService service.
+
+ -delete [Oracle_home_directory]
+         Delete OracleMTSRecoveryService of current home or specified home.
+
+ -start  Start OracleOraHome1MTSRecoveryService service.
+
+ -stop   Stop OracleOraHome1MTSRecoveryService service.
+
+ -status Query OracleOraHome1MTSRecoveryService service status.
+
+ -config [-port <number>] [-ip <IP_address>] [-dtchost <DTC_hostname>]
+         [-cluster <on|off>] [-default]
+         Show or set OracleOraHome1MTSRecoveryService service configuration.
+         Use -default to reset OracleOraHome1MTSRecoveryService configuration.
+
+ -passwd Update OracleOraHome1MTSRecoveryService service user password.
+
+ -trace  [0-5]
+         Show traces or set trace level. Set level 0 to turn off tracing.
+
+ -trcdir [trace_directory]
+         Show or set trace directory.
+
+ -host   <hostname|IP_address> ...
+         Execute operation on host(s) identified by name(s) or IP address(es).
+         Local host is used if option not specified.
+
+ -port   <number>
+         Execute -new or -config with this option to specify a service port.
+         Service port is configured automatically if option not specified.
+
+ -ip     <IP_address>
+         Execute -new or -config with this option to specify an IP address.
+
+ -default
+         Execute -new or -config with this option to set default configuration.
+
+Examples:
+
+Install the service with automatic configuration:
+oramtsctl -new
+
+Install the service on port 2032:
+oramtsctl -new -port 2032
+
+Configure the service to use port 2033:
+oramtsctl -config -port 2033
+
+Update the service user password:
+oramtsctl -passwd
+
+Install the service on several hosts and use uniform port 2033:
+oramtsctl -new -host host1 host2.domain.com host3 -port 2033
+
+[ Exit Code ] 1
+[ End ] MTS
+
+[ Start ] MTS
+Command: [C:\Windows\system32\cmd.exe /c call F:\app\Grigoris\OraHome_1\bin\oramtsctl.exe -new -internal -new -internal -new -internal -new -internal -new -internal ]
+OracleMTSRecoveryService Control Utility: Version 12.1.0.0.0 - Production
+
+Copyright (c) 2012, Oracle.  All rights reserved.
+
+Usage:
+
+oramtsctl <-new|-delete|-start|-stop|-status|-config|-passwd|-trace|-trcdir>
+          [-host    <hostname|IP_address> ...]
+          [-port    <number>]
+          [-ip      <IP_address>]
+          [-dtchost <DTC_hostname>]
+          [-cluster <on|off>]
+          [-default]
+
+ -new    Create and start a new OracleOraHome1MTSRecoveryService service.
+
+ -delete [Oracle_home_directory]
+         Delete OracleMTSRecoveryService of current home or specified home.
+
+ -start  Start OracleOraHome1MTSRecoveryService service.
+
+ -stop   Stop OracleOraHome1MTSRecoveryService service.
+
+ -status Query OracleOraHome1MTSRecoveryService service status.
+
+ -config [-port <number>] [-ip <IP_address>] [-dtchost <DTC_hostname>]
+         [-cluster <on|off>] [-default]
+         Show or set OracleOraHome1MTSRecoveryService service configuration.
+         Use -default to reset OracleOraHome1MTSRecoveryService configuration.
+
+ -passwd Update OracleOraHome1MTSRecoveryService service user password.
+
+ -trace  [0-5]
+         Show traces or set trace level. Set level 0 to turn off tracing.
+
+ -trcdir [trace_directory]
+         Show or set trace directory.
+
+ -host   <hostname|IP_address> ...
+         Execute operation on host(s) identified by name(s) or IP address(es).
+         Local host is used if option not specified.
+
+ -port   <number>
+         Execute -new or -config with this option to specify a service port.
+         Service port is configured automatically if option not specified.
+
+ -ip     <IP_address>
+         Execute -new or -config with this option to specify an IP address.
+
+ -default
+         Execute -new or -config with this option to set default configuration.
+
+Examples:
+
+Install the service with automatic configuration:
+oramtsctl -new
+
+Install the service on port 2032:
+oramtsctl -new -port 2032
+
+Configure the service to use port 2033:
+oramtsctl -config -port 2033
+
+Update the service user password:
+oramtsctl -passwd
+
+Install the service on several hosts and use uniform port 2033:
+oramtsctl -new -host host1 host2.domain.com host3 -port 2033
+
+[ Exit Code ] 1
+[ End ] MTS
+
